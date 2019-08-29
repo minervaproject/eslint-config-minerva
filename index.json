@@ -1,0 +1,72 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "jasmine": true,
+    "jest": true
+  },
+  "settings": {
+    "react": {
+      "version": "999.999.999"
+    }
+  },
+  "rules": {
+    "arrow-parens": ["error", "always"],
+    "class-methods-use-this": "off",
+    "consistent-return": "off",
+    "function-paren-newline": "off",
+    "import/first": "off",
+    "import/no-named-as-default": "warn",
+    "import/prefer-default-export": "warn",
+    "jsx-a11y/alt-text": "off",
+    "jsx-a11y/anchor-has-content": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/click-events-have-key-events": "off",
+    "jsx-a11y/iframe-has-title": "off",
+    "jsx-a11y/label-has-for": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "jsx-a11y/no-static-element-interactions": "off",
+    "jsx-quotes": ["error", "prefer-double"],
+    "space-before-function-paren": ["error", {
+      "anonymous": "always",
+      "named": "never",
+      "asyncArrow": "always"
+    }],
+    "max-len": "off",
+    "no-alert": "off",
+    "no-console": "off",
+    "no-lonely-if": "warn",
+    "no-nested-ternary": "warn",
+    "no-param-reassign": "warn",
+    "no-plusplus": "off",
+    "no-restricted-globals": "warn",
+    "no-shadow": "warn",
+    "no-unused-expressions": ["error", { "allowTernary": true }],
+    "no-unused-vars": "warn",
+    "no-underscore-dangle": "off",
+    "no-use-before-define": "warn",
+    "object-curly-newline": "off",
+    "object-shorthand": "off",
+    "prefer-arrow-callback": "warn",
+    "prefer-destructuring": "off",
+    "prefer-promise-reject-errors": "warn",
+    "react/forbid-prop-types": "off",
+    "react/jsx-closing-tag-location": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-no-bind": "off",
+    "react/jsx-no-target-blank": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/no-array-index-key": "warn",
+    "react/no-find-dom-node": "warn",
+    "react/no-multi-comp": "warn",
+    "react/no-string-refs": "warn",
+    "react/no-unescaped-entities": "off",
+    "react/no-unused-prop-types": "warn",
+    "react/no-unused-state": "warn",
+    "react/prefer-stateless-function": "off",
+    "react/prop-types": "warn",
+    "react/require-default-props": "warn",
+    "react/sort-comp": "off"
+  }
+}

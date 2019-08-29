@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-minerva",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minervaproject/eslint-config-minerva.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minervaproject/eslint-config-minerva"
+  },
+  "peerDependencies": {
+    "eslint": "5.x",
+    "babel-eslint": "10.x",
+    "eslint-config-airbnb": "17.x",
+    "eslint-config-prettier": "6.x"
+  },
+  "homepage": "https://github.com/minervaproject/eslint-config-minerva#readme"
+}
